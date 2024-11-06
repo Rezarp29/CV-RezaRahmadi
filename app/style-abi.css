@@ -1,0 +1,21 @@
+.fotoku{
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px white;
+    box-shadow: 0 0 10px blueviolet;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Specifically target components */
+  .hero, .riwayat-pendidikan, .riwayat-pekerjaan, .fav-color, .contact {
+    margin: 0;
+    padding: 0;
+  }
